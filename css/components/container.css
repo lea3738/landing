@@ -1,0 +1,18 @@
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  .container {
+      width: 500px;
+  }
+}
+
+
+.container-howitworks{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
